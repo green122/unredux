@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "axios": "^0.17.0",
+    "express": "^4.16.2",
+    "nodemon": "^1.12.1",
+    "route-parser": "0.0.5",
+    "source-map-support": "^0.5.0"
+  },
+  "scripts": {
+    "start-server": "nodemon ./build/server.js",
+    "postinstall": ". postinstall.sh",
+    "webpack": "webpack",
+    "webpack-watch": "webpack --watch"
+  }
+}
